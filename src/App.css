@@ -6,6 +6,7 @@
 }
 
 
+/* side bar style */
 @media (min-width:1200px) {
   .mainWrapper {
     margin: 0 26px 0 26px;
@@ -13,6 +14,11 @@
   }
   
 }
+
+
+
+
+
 
 /* darkTheme with border and text color */
 .darkMain {

@@ -23,6 +23,7 @@ const Navbar = ({isDarkMode, toggleTheme, toggleSidebar}) => {
           {/* buttons */}
           <div className='me-2 ms-auto'>
             <ul className='nav align-items-center'>
+              {/* search button */}
               <i className="nav-item">
                 <div className="wrap d-flex ms-2">
                   <div className="searchBox" id="searchInp">
@@ -36,6 +37,8 @@ const Navbar = ({isDarkMode, toggleTheme, toggleSidebar}) => {
                     </button>
                 </div>
               </i>
+
+              {/* other buttons */}
               <i className="nav-item">
                 <button className={`btn`}>            
                   <FontAwesomeIcon className={`${isDarkMode ? 'darkText' : 'whiteText'}`} 
